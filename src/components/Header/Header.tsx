@@ -32,6 +32,7 @@ const header = () => {
                 <a href="tel: 9841661139">9841661139</a>
               </p>
             </div>
+            {/* <hr className="w-full h-[1px] bg-secondary border-none my-2" /> */}
             <Navbar />
           </div>
         </div>

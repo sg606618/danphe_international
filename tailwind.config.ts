@@ -10,11 +10,20 @@ export default {
   ],
   theme: {
     extend: {
+      keyframes: {
+        scroll: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-100%)" },
+        },
+      },
+      animation: {
+        scroll: "scroll 30s linear infinite",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
         primary: "#D14715",
-        seconday: "#1B0C5D",
+        secondary: "#1B0C5D",
       },
     },
   },
