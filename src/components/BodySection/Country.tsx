@@ -19,7 +19,7 @@ const Country = () => {
   }, []);
 
   return (
-    <div className="overflow-hidden w-full">
+    <div className="overflow-hidden w-full my-14">
       <h1 className="text-3xl text-black text-center w-full my-5 font-bold">
         Schengen Countries
       </h1>
@@ -27,7 +27,8 @@ const Country = () => {
         {countries.map((country) => (
           <a
             key={country.cca2}
-            href={`https://en.wikipedia.org/wiki/${country.name.common}`}
+            href="#"
+            // href={`https://en.wikipedia.org/wiki/${country.name.common}`}
             target="_blank"
             rel="noopener noreferrer"
             className="hover:scale-110 transition-transform duration-300"
