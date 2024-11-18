@@ -7,7 +7,7 @@ const Services = () => {
         <h1 className="text-3xl text-black text-center w-full my-5 font-bold">
           Our Services
         </h1>
-        <div className="flex w-full md:w-[90%] lg:w-[80%] lg:pl-3 justify-between flex-wrap gap-6">
+        <div className="flex w-full md:w-[90%] lg:w-[80%] lg:pl-3 justify-between mx-auto flex-wrap gap-6">
           <div className="flex flex-col text-black gap-6">
             <div className="flex gap-2 text-2xl items-end">
               <span className="text-primary text-3xl">&#9650;</span> Translation

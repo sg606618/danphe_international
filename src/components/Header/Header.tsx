@@ -8,7 +8,7 @@ const header = () => {
   const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
-    setIsClient(true); // Ensures code only runs on the client side
+    setIsClient(true);
   }, []);
 
   return (

@@ -2,6 +2,7 @@ import React from "react";
 import Country from "./Country";
 import Services from "./Services";
 import Connect from "./Connect";
+import Map from "./Map";
 
 const BodySection = () => {
   return (
@@ -11,6 +12,7 @@ const BodySection = () => {
           <Country />
           <Services />
           <Connect />
+          <Map />
         </div>
       </div>
     </>
